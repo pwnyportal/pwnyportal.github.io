@@ -17,21 +17,38 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            display: flex;
+        }
+        .image-container {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .content {
+            flex: 2;
+        }
+        .unicorn-image {
+            width: 500px; /* Set the desired width */
+            height: 500px; /* Set the desired height */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to PwnyPortal</h1>
-        <p>Your gateway to Splunk intranet.</p>
-        <h2>Latest Updates</h2>
-        <ul>
-            <li>Improved search functionality</li>
-            <li>Enhanced dashboard performance</li>
-            <li>New security features</li>
-        </ul>
-        <h3>Contact Us</h3>
-        <p>If you have any questions, please email support@pwnyportal.com</p>
+        <div class="image-container">
+            <img src="docs/assets/buttercup_fawkes.jpeg" alt="Buttercup the hacker unicorn" class="unicorn-image">
+        </div>
+        <div class="content">
+            <h1>Welcome to PwnyPortal</h1>
+            <p>Your gateway to Splunk intranet.</p>
+            <h2>Latest Updates</h2>
+            <ul>
+                <li>Improved search functionality</li>
+                <li>Enhanced dashboard performance</li>
+                <li>New security features</li>
+            </ul>
+            <h3>Contact Us</h3>
+            <p>If you have any questions, please email support@pwnyportal.com</p>
+        </div>
     </div>
 </body>
-</html>  
+</html>
